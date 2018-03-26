@@ -19,7 +19,7 @@ public class Test
     };
 
     [Fact]
-    public void _001_Construtor_Se_BancoDeDadosNulo_Entao_RetornaException()
+    public void _001_Construtor_Se_BancoDeDadosNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -28,7 +28,7 @@ public class Test
     }
 
     [Fact]
-    public void _002_CadastraCliente_Se_ClienteNulo_Entao_RetornaException()
+    public void _002_CadastraCliente_Se_ClienteNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -38,7 +38,7 @@ public class Test
     }
 
     [Fact]
-    public void _003_CadastraCliente_Se_CpfNulo_Entao_RetornaException()
+    public void _003_CadastraCliente_Se_CpfNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -49,7 +49,7 @@ public class Test
     }
 
     [Fact]
-    public void _004_CadastraCliente_Se_EmailNulo_Entao_RetornaException()
+    public void _004_CadastraCliente_Se_EmailNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -60,7 +60,7 @@ public class Test
     }
 
     [Fact]
-    public void _005_CadastraCliente_Se_EnderecoNulo_Entao_RetornaException()
+    public void _005_CadastraCliente_Se_EnderecoNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -71,7 +71,7 @@ public class Test
     }
 
     [Fact]
-    public void _006_CadastraCliente_Se_IdadeMenorQue18_Entao_RetornaException()
+    public void _006_CadastraCliente_Se_IdadeMenorQue18_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -82,7 +82,7 @@ public class Test
     }
 
     [Fact]
-    public void _007_CadastraCliente_Se_TelefoneNulo_Entao_RetornaException()
+    public void _007_CadastraCliente_Se_TelefoneNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -93,7 +93,7 @@ public class Test
     }
 
     [Fact]
-    public void _008_CadastraCliente_Se_CpfInvalido_Entao_RetornaException()
+    public void _008_CadastraCliente_Se_CpfInvalido_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -104,7 +104,7 @@ public class Test
     }
 
     [Fact]
-    public void _009_CadastraCliente_Se_EmailInvalido_Entao_RetornaException()
+    public void _009_CadastraCliente_Se_EmailInvalido_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -115,7 +115,7 @@ public class Test
     }
 
     [Fact]
-    public void _010_CadastraCliente_Se_NomeMaiorQue50Caracteres_Entao_RetornaException()
+    public void _010_CadastraCliente_Se_NomeMaiorQue50Caracteres_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -138,7 +138,7 @@ public class Test
     }
 
     [Fact]
-    public void _012_PesquisaCliente_Se_CpfNulo_Entao_RetornaException()
+    public void _012_PesquisaCliente_Se_CpfNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -148,7 +148,7 @@ public class Test
     }
 
     [Fact]
-    public void _013_PesquisaCliente_Se_CpfInvalido_Entao_RetornaException()
+    public void _013_PesquisaCliente_Se_CpfInvalido_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -198,7 +198,7 @@ public class Test
     }
 
     [Fact]
-    public void _017_DeletaCliente_Se_CpfNulo_Entao_RetornaException()
+    public void _017_DeletaCliente_Se_CpfNulo_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -208,7 +208,7 @@ public class Test
     }
 
     [Fact]
-    public void _018_DeletaCliente_Se_CpfInvalido_Entao_RetornaException()
+    public void _018_DeletaCliente_Se_CpfInvalido_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
@@ -218,7 +218,7 @@ public class Test
     }
 
     [Fact]
-    public void _019_DeletaCliente_Se_ClienteNaoEncontrado_Entao_RetornaException()
+    public void _019_DeletaCliente_Se_ClienteNaoEncontrado_Entao_LancaException()
     {
         Assert.Throws<Exception>(() =>
         {
