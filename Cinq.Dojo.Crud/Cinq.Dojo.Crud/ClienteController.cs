@@ -6,8 +6,6 @@ namespace Cinq.Dojo.Crud
     {
         public ClienteController(IBancoDeDados banco)
         {
-            //throw new NotImplementedException();
-
             if (banco == null)
                 throw new Exception("Banco não informado");
 
@@ -18,8 +16,6 @@ namespace Cinq.Dojo.Crud
 
         public void CadastraCliente(Cliente cliente)
         {
-            //throw new NotImplementedException();
-
             if (cliente == null)
                 throw new Exception("Cliente não informado.");
 
@@ -52,8 +48,6 @@ namespace Cinq.Dojo.Crud
 
         public Cliente PesquisaCliente(string cpf)
         {
-            //throw new NotImplementedException();
-
             if (string.IsNullOrEmpty(cpf))
                 throw new Exception("Cpf não informado");
 
@@ -65,15 +59,11 @@ namespace Cinq.Dojo.Crud
 
         public Cliente[] RetornaTodosClientes()
         {
-            //throw new NotImplementedException();
-
             return Banco.RetornaTodos();
         }
 
         public void DeletaCliente(string cpf)
         {
-            //throw new NotImplementedException();
-
             if (string.IsNullOrEmpty(cpf))
                 throw new Exception("Cpf não informado");
 
@@ -86,8 +76,6 @@ namespace Cinq.Dojo.Crud
 
             Banco.Deleta(cpf);
         }
-
-        //-----------------------------------------------------------------------------
 
         bool IsValidEmail(string email)
         {
