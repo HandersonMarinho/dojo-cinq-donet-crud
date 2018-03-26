@@ -103,6 +103,7 @@ namespace Cinq.Dojo.Crud
         static void PrintReport(IEnumerable<Cliente> list)
         {
             Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" ");
             Console.WriteLine(
 
              list.Select(s => new
