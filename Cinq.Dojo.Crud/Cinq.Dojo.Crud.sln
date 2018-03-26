@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinq.Dojo.Crud", "Cinq.Dojo.Crud\Cinq.Dojo.Crud.csproj", "{CE326A9B-5409-4E30-91FF-441FD1C531C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinq.Dojo.Crud.Test", "Cinq.Dojo.Crud.Test\Cinq.Dojo.Crud.Test.csproj", "{A0B65609-D7E3-4DBF-A5B2-2F75A9084F53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE326A9B-5409-4E30-91FF-441FD1C531C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE326A9B-5409-4E30-91FF-441FD1C531C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE326A9B-5409-4E30-91FF-441FD1C531C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE326A9B-5409-4E30-91FF-441FD1C531C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B65609-D7E3-4DBF-A5B2-2F75A9084F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B65609-D7E3-4DBF-A5B2-2F75A9084F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B65609-D7E3-4DBF-A5B2-2F75A9084F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B65609-D7E3-4DBF-A5B2-2F75A9084F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
